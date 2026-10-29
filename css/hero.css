@@ -37,3 +37,17 @@
   flex-direction: column;
   align-items: center;
 }
+.hero {
+  background-size: 100% cover;
+  background-repeat: no-repeat;
+  background-position:
+    top right,
+    center;
+  background-position: 50% 50%;
+  background-color: linear-gradient(
+    180deg,
+    rgba(46, 47, 66, 0.7) 0%,
+    rgba(46, 47, 66, 0.7) 100%
+  );
+  background-image: url(../images/background-image/hero.png);
+}
