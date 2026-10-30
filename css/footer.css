@@ -1,6 +1,6 @@
 .page-footer {
   display: flex;
- 
+
   background-color: var(--color-heading);
   padding: 100px 0px;
 }
@@ -68,12 +68,15 @@ height: 40px;
   gap: 120px;
  max-width: 1158px;
 padding: 0 15px;
+
 }
 .link-svg-footer{
+  overflow: visible;
   border-radius: 40px;
    background-color: #4D5AE5;
   color: #ffff;
  transition-duration: 250ms;
+ padding: 12px;
 }
 .link-svg-footer:hover{
   background-color: #31D0AA;
