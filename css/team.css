@@ -58,6 +58,7 @@ height: 40px;
 border-radius: 40px;
 background-color: #4D5AE5;
 color: #ffff;
+ transition-duration: 250ms;
 }
 .link-icons{
   display: flex;
@@ -67,5 +68,7 @@ color: #ffff;
    border-radius: 40px;
   background-color: #404BBF;
   color: #ffff;
+ 
+ 
  
 }

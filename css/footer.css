@@ -73,10 +73,11 @@ padding: 0 15px;
   border-radius: 40px;
    background-color: #4D5AE5;
   color: #ffff;
- 
+ transition-duration: 250ms;
 }
 .link-svg-footer:hover{
   background-color: #31D0AA;
+  
 }
 .paragraf-footer{
   color: #ffff;

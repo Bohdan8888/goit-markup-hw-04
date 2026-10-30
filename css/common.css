@@ -7,6 +7,11 @@
   --color-white: #ffffff;
 }
 
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -82,7 +87,4 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
-}
-p{
-  
 }
