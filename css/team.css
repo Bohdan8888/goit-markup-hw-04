@@ -14,7 +14,7 @@
 
 .team-list {
   display: flex;
- 
+
   align-items: flex-start;
   gap: 24px;
 }
@@ -23,6 +23,10 @@
   background-color: var(--color-white);
   text-align: center;
   border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
@@ -43,34 +47,34 @@
   text-align: center;
 }
 
-.team-card-content{
+.team-card-content {
   padding: 32px 16px;
 }
-.team-image{
+.team-image {
   display: block;
 }
-.team-role{
+.team-role {
   margin-top: 8px;
 }
-.link-svg{
-   overflow: visible;
+.link-svg {
+  overflow: visible;
   width: 40px;
-height: 40px;
-border-radius: 40px;
-background-color: rgb(77 90 229 );
-color: #ffff;
- transition-duration: 250ms;
- padding: 12px;
-}
-.link-icons{
-  display: flex;
-  justify-content: center;
-}
-.link-svg:hover{
-   border-radius: 40px;
-  background-color: rgb(64 75 191 );
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgb(77 90 229);
   color: #ffff;
+  transition-duration: 250ms;
+  padding: 12px;
+}
+.link-icons {
+ display: flex;
+margin-top: 8px;
+gap: 24px;
+justify-content: center;
  
- 
- 
+}
+.link-svg:hover {
+  border-radius: 40px;
+  background-color: rgb(64 75 191);
+  color: #ffff;
 }

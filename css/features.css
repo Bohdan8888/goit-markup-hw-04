@@ -32,9 +32,12 @@
   align-self: stretch;
 }
 .icon{
-  height: 112px;
+width: 264px;
+height: 112px;
 border-radius: 4px;
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 background: var(--CLOUD, #F4F4FD);
+padding: 24px 100px;
 }
+
 
