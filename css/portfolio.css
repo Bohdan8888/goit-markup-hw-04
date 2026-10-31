@@ -1,3 +1,4 @@
+
 .portfolio {
   background-color: var(--color-white);
 }
@@ -21,10 +22,13 @@
 
 .portfolio-card {
   display: flex;
-  position: relative;
   flex-direction: column;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms ease-in-out;
+}
+
+.portfolio-image-wrapper {
+  position: relative;
   overflow: hidden;
 }
 
@@ -44,11 +48,13 @@
   letter-spacing: 0.02em;
   margin-top: 8px;
 }
+
 .portfolio-image {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .portfolio-card-content {
   padding: 32px 16px;
   border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -59,29 +65,29 @@
 
 .position-paragraf {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  height: 300px;
-  min-height: 240px;
-  max-height: 300px;
-  padding: 40px 32px 164px 32px;
   justify-content: center;
   align-items: center;
+  padding: 40px 32px;
+  margin: 0;
   background-color: #4d5ae5;
   color: #f4f4fd;
   transform: translateY(100%);
+  opacity: 0;
   transition:
     transform 250ms ease-in-out,
-    opacity 300ms ease-in-out;
-  top: 0;
-  left: 0;
-  opacity: 0;
+    opacity 250ms ease-in-out;
 }
 
 .portfolio-card:hover {
   box-shadow:
-    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card:hover .position-paragraf {
